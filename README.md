@@ -1,6 +1,14 @@
 # Pretest task #1
 Create a C++ program to blur an image using OpenCV
 
+Clone this project and move into the pretestTask1 directory
+`cd pretextTask1`
+Make sure opencv and g++ complier is installed
+Complile the file opencvmini.cpp using the follwing command
+`g++ -std=c++14 opencvminicpp.cpp -o opencvmini `pkg-config opencv4 --cflags --libs``
+Execute the complied file 
+`./opencvmini`
+
 TIL
 - Finding the exact header file to be added (opencv.hpp)
 - Finding the location of the header file to inclued in the cpp program. OpenCV was downloaded using homebrew and the header files were at `opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2`. Todo : research a lil about the file system in unix systems to understand what the opt filder is for. From the best of my knowledge, it a the folder into which library files are stored by package managers like pip,anaconda and homebrew.
