@@ -1,12 +1,12 @@
 # Pretest task #1
 Create a C++ program to blur an image using OpenCV
 
-Clone this project and move into the pretestTask1 directory
+1. Clone this project and move into the pretestTask1 directory
 `cd pretextTask1`
-Make sure opencv and g++ complier is installed
+2. Make sure opencv and g++ complier is installed
 Complile the file opencvmini.cpp using the follwing command
 `g++ -std=c++14 opencvminicpp.cpp -o opencvmini `pkg-config opencv4 --cflags --libs``
-Execute the complied file 
+3. Execute the complied file 
 `./opencvmini`
 
 TIL
