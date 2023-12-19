@@ -10,9 +10,9 @@ Complile the file opencvmini.cpp using the following command
 `./opencvmini`
 
 TIL
-- Finding the exact header file to be added (opencv.hpp). Why not core.hpp? Todo: research a lil about the header systems.
-- Finding the location of the header file to inclued in the cpp program. OpenCV was downloaded using homebrew and the header files were at `opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2`. Todo : research a lil about the file system in unix systems to understand what the opt filder is for. To the best of my knowledge, it a the folder into which library files are stored by package managers like pip,anaconda and homebrew.
-- Complile the program using the right flags (throws error when u don't spefify the c++ std using this flag `-std=c++14`).Todo: learn more about the Cpp stds.
+- Finding the appropriete header file that needs to be added (opencv.hpp). Why not core.hpp? Todo: research a lil about the header systems.
+- Finding the location of the header file to be included in the cpp program. In my case,OpenCV was downloaded using homebrew and the header files were at `opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2`. Todo : research a lil about theunix file systems to to comprehend the purpose of the opt folder. To the best of my knowlege, opt is used to store library files by package managers like pip, Anaconda, and Homebrew.
+- Compiling the program using the right flags (throws error when u don't spefify the c++ std using this flag `-std=c++14`).Todo: learn more about the Cpp stds.
 - Throws the following error:fatal error: 'opencv2/opencv_modules.hpp' file not found #include "opencv2/opencv_modules.hpp" when this is not used while compiling `pkg-config opencv4 --cflags --libs`. 
 
 
