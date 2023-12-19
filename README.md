@@ -3,7 +3,7 @@ Create a C++ program to blur an image using OpenCV
 
 1. Clone this project and move into the pretestTask1 directory
 `cd pretextTask1`
-2. Make sure opencv and g++ complier is installed
+2. Make sure opencv and g++ complier are installed.<br>
 Complile the file opencvmini.cpp using the follwing command
 <code>g++ -std=c++14 opencvminicpp.cpp -o opencvmini `pkg-config opencv4 --cflags --libs`</code>
 3. Execute the complied file 
